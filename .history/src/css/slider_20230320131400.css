@@ -1,0 +1,17 @@
+.demo_image-slider{
+
+}
+.demo_image-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.demo_image{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.demo_image img{
+    width: 50%;
+    border-radius: 20px;
+}

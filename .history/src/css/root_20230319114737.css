@@ -1,0 +1,24 @@
+
+:root{
+    --white-color:#fff;
+    --back-color:#000;
+    --bg-color:#28044A;
+    --bg-gradient-1:#012762;
+    --bg-gradient-2:#210e5d;
+    --bg-gradient-3:#320059;
+    --text-color:#51DA4C;
+
+    --width-default:1200px;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: var(--text-color);
+}

@@ -1,0 +1,69 @@
+.root{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.app{
+    width: 1200px;
+    /* background-color: pink; */
+}
+/* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    /* background-color: red; */
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* btn */
+.nav-btn-body{
+    display: flex;
+    justify-content: center;
+}
+.nav-btn {
+    padding: 10px 24px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    background-image: linear-gradient(#ECBC11,#E20E00);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+.nav-btn::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 244, 240, 0.3);
+    transform: translateX(-100%);
+    transition: all 0.3s ease-out;
+  }
+.nav-btn:hover {
+    color: white;
+  }
+.nav-btn:hover::before {
+    transform: translateX(0%);
+  }

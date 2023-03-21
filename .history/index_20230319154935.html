@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/mainPrice.css">
+    <link rel="stylesheet" href="/src/css/root.css">
+    <link rel="stylesheet" href="/src/css/gridSystem.css">
+</head>
+<body>
+    <div class="root">
+      <div class="app ">
+        <!-- header -->
+          <header class="header">
+           <div class="header-wrapper grid wide">
+              <nav class="nav row">
+                <div href="/" class="nav-logo c-2">
+                  <svg data-v-069f367b="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 32" class="a-icon--logo-text flex h-32" data-new="" aria-hidden="true" style="width: 158px; height: 42px;"><g data-v-069f367b="" fill="#51DA4C">
+                    <path d="m36.7 15.4c0 5.2 3.4 8.9 8 8.9s8-3.6 8-8.9-3.4-8.9-8-8.9-8 3.7-8 8.9zm13 0c0 3.7-2 6.2-4.9 6.2s-4.9-2.4-4.9-6.2 2-6.2 4.9-6.2 4.9 2.4 4.9 6.2z"></path>
+                    <path d="m61.4 24.3c3.5 0 5.5-3 5.5-6.6s-2-6.6-5.5-6.6c-1.6 0-2.8.6-3.6 1.6v-1.3h-2.9v16.9h2.9v-5.6c.8.9 2 1.6 3.6 1.6zm-3.7-6.9c0-2.4 1.3-3.7 3.1-3.7 2.1 0 3.2 1.6 3.2 4s-1.1 4-3.2 4c-1.8 0-3.1-1.3-3.1-3.6z">
+                    </path>
+                    <path d="m74.8 24.3c2.5 0 4.5-1.3 5.4-3.5l-2.5-.9c-.4 1.3-1.5 2-2.9 2-1.8 0-3.1-1.3-3.4-3.5h8.8v-1c0-3.5-1.9-6.2-5.6-6.2-3.5 0-6 2.9-6 6.6 0 3.8 2.6 6.5 6.2 6.5zm-.2-10.7c1.8 0 2.7 1.2 2.7 2.6h-5.8c.5-1.7 1.6-2.6 3.1-2.6z"></path>
+                    <path d="m82.4 24h2.9v-7.4c0-1.8 1.3-2.8 2.6-2.8 1.6 0 2.2 1.1 2.2 2.7v7.5h2.9v-8.3c0-2.7-1.6-4.5-4.2-4.5-1.6 0-2.8.7-3.5 1.6v-1.3h-2.9z"></path>
+                    <path d="m101.4 6.8-6.5 17.2h3l1.5-3.9h7.4l1.5 3.9h3.1l-6.5-17.2zm1.7 3.4 2.7 7.2h-5.4z"></path>
+                    <path d="m116.4 6.8h-3.1v17.2h3.1z">
+                    </path>
+                    <path class="a-icon--logo-text-logo" d="m29.7 13.1c.4-1.1.5-2.2.4-3.3s-.5-2.2-1-3.2c-.9-1.5-2.2-2.7-3.7-3.4-1.6-.7-3.3-.9-5-.5-.8-.8-1.7-1.5-2.7-2s-2.2-.7-3.3-.7c-1.7 0-3.4.5-4.8 1.5s-2.4 2.4-2.9 4c-1.2.3-2.2.8-3.2 1.4-.9.7-1.6 1.6-2.2 2.5-.9 1.5-1.2 3.2-1 4.9s.9 3.3 2 4.6c-.4 1.1-.5 2.2-.4 3.3s.5 2.2 1 3.2c.9 1.5 2.2 2.7 3.7 3.4 1.6.7 3.3.9 5 .5.8.8 1.7 1.5 2.7 2s2.2.7 3.3.7c1.7 0 3.4-.5 4.8-1.5s2.4-2.4 2.9-4c1.1-.2 2.2-.7 3.1-1.4s1.7-1.5 2.2-2.5c.9-1.5 1.2-3.2 1-4.9s-.8-3.3-1.9-4.6zm-12 16.8c-1.6 0-2.8-.5-3.9-1.4 0 0 .1-.1.2-.1l6.4-3.7c.2-.1.3-.2.4-.4s.1-.3.1-.5v-9l2.7 1.6v7.4c.1 3.5-2.7 6.1-5.9 6.1zm-12.9-5.5c-.7-1.2-1-2.6-.7-4 0 0 .1.1.2.1l6.4 3.7c.2.1.3.1.5.1s.4 0 .5-.1l7.8-4.5v3.1l-6.5 3.8c-1.4.8-3 1-4.5.6-1.6-.4-2.9-1.4-3.7-2.8zm-1.7-13.9c.7-1.2 1.8-2.1 3.1-2.6v.2 7.4c0 .2 0 .4.1.5.1.2.2.3.4.4l7.8 4.5-2.7 1.6-6.4-3.7c-1.4-.8-2.4-2.1-2.8-3.6s-.3-3.3.5-4.7zm22.1 5.1-7.8-4.5 2.7-1.6 6.4 3.7c1 .6 1.8 1.4 2.3 2.4s.8 2.1.7 3.3c-.1 1.1-.5 2.2-1.2 3.1s-1.6 1.6-2.7 2v-7.6c0-.2 0-.4-.1-.5 0 0-.1-.2-.3-.3zm2.7-4s-.1-.1-.2-.1l-6.4-3.7c-.2-.1-.3-.1-.5-.1s-.4 0-.5.1l-7.8 4.5v-3.1l6.5-3.8c1-.6 2.1-.8 3.3-.8 1.1 0 2.2.4 3.2 1.1.9.7 1.7 1.6 2.1 2.6s.5 2.2.3 3.3zm-16.8 5.6-2.7-1.6v-7.5c0-1.1.3-2.3.9-3.2.6-1 1.5-1.7 2.5-2.2s2.2-.7 3.3-.5c1.1.1 2.2.6 3.1 1.3 0 0-.1.1-.2.1l-6.4 3.7c-.2.1-.3.2-.4.4s-.1.3-.1.5zm1.4-3.2 3.5-2 3.5 2v4l-3.5 2-3.5-2z"></path></g>
+                  </svg>
+                </div>
+                <ul class="nav-items c-8">
+                  <li href="#overview" class="nav-item">Overview</li>
+                  <li href="#Demo" class="nav-item">Demo</li>
+                  <li href="#Features" class="nav-item">Features</li>
+                  <li href="#Price" class="nav-item">Price</li>
+                  <li href="#F&Q" class="nav-item">F&Q</li>
+                </ul> 
+                <div class="nav-btn-body c-2 ">
+                  <button class="nav-btn">ORDER NOW!</button>
+                </div>
+              </nav>
+           </div>
+          </header>
+        <!-- body -->
+        <main class="main">
+          <!-- banner -->
+          <div class="banner grid wide">
+            <div>
+              <div class="banner_1 row">
+                <h1 class="banner_1-title c-12">Chat GPT</h1>
+                <h1 class="banner_1-text c-8 ">Một sản phẩm trí tuệ nhân tạo, thông minh nhất từ trước đến nay do con người tạo ra, nó có thể giúp chúng ta “làm được mọi thứ”, từ viết văn nội trợ, cho đến lập trình và còn nhiều tính năng thú vị khác...</h1>
+                
+              </div>
+              <div class="banner_1 row">
+                <div class="banner_slogen c-8">
+                  <h2>E A S Y  T O  U S E&ensp;  -&ensp;  F A S T E R </h2>
+                  <h2>C O N V E N I E N C E&ensp;  -&ensp;  P R O D U C T IV E </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="banner-btn-change">
+              <div class="banner-btn c-12">
+                <button class="nav-btn banner-nav-btn">GET CHATGPT NOW - SUPPER SALE TODAY</button>
+              </div>
+              
+            </div>
+            <div class="banner_list-divise">
+               <div class="banner_item">
+                <div class="banner_item-title">Full Compare with</div>
+                <div>
+                  <img src="https://res.cloudinary.com/dhglwzgm3/image/upload/v1679215706/windows_zumldw.svg"/>
+                  <p>macOS</p>
+                </div>
+               </div>
+            </div>
+         <!-- price -->
+          </div>
+          <!-- overview -->
+          <div id="overview" class="overview">
+            <div class="overview_wrapper grid wide">
+              <div class="overview-background"></div>
+              <div class="overview_body c-10">
+                <div class="overview-title">Và...</div>
+                <div class="overview-more-info">
+                  ChatGPT là một chatbot trí tuệ nhân tạo được phát triển bởi OpenAI ( một công ty công nghệ lớn ở Silicon Valley ), dựa trên mô hình GPT 3.5, nó được thiết kế để hiểu và tạo ra ngôn ngữ giao tiếp, phản hồi một cách tự nhiên với con người.
+                </div>
+                <div class="overview-more-info">ChatGPT được đào tạo bởi kho dữ liệu khổng lồ từ nhiều nguồn khác nhau từ trước đến nay, bao gồm sách, website và những thứ khác được tạo ra bởi con người có trên Internet. Trí thông minh nhân tạo này có thể hiểu sâu ngôn ngữ như ngữ pháp, các cú pháp trong lập trình, và cho phép trả lời bằng những câu trả lời thực sự chất lượng như thể bạn đang giao tiếp với người.</div>
+                <div class="overview-more-info">Sinh ra với mục đích là chatbot nên nó được sử dụng như một chatbot để phục vụ cho các mục đích như tích hợp vào các Applications, bao gồm các dịch vụ hỗ trợ khách hàng, trợ lí riêng của bạn, hay tích hợp lên website của bạn giúp trả lời thông minh hơn và tiết kiệm thời gian hơn cũng như chi phí.</div>
+                <div class="overview-more-info">ChatGPT cũng có thể trở nên thông minh hơn nhờ vào việc học hỏi không ngừng đến từ những thông tin liên tục được chính người dùng dạy nó. </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- price -->
+          <div class="price">
+            <div class="price_wrapper grid wide">
+              <div class="price_list row c-12">
+                <div class="price_item">
+                  <div class="price_item-title">Basic plan</div>
+                  <div class="price_item-type">Free trial</div>
+                  <div class="price_item-info">
+                      <p>1</p>
+                      <span>USER</span>
+                  </div>
+                  <div class="price_item-info">
+                    <p>LIMIT</p>
+                    <span>BANDWITH</span>
+                  </div>
+                  <div class="price_item-info">
+                    <p>4/7</p>
+                    <span>SUPPORT</span>
+                  </div>
+                  <!-- <img src="https://res.cloudinary.com/dhglwzgm3/image/upload/v1679214009/TT_dwdrz9.svg"/> -->
+                  <div class="price_item-btn">BUY NOW</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer"></footer>
+      </div>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
