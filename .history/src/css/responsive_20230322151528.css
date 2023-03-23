@@ -1,0 +1,13 @@
+@media (max-width:1238px){
+    .wide{
+        width: 100% !important;
+    }
+}
+@media (max-width:1082px){
+    .nav{
+        padding: 0 10px;
+    }
+    .nav-items.c-8{
+        display: none !important;
+    }
+}

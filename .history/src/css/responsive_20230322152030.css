@@ -1,0 +1,24 @@
+@media (max-width:1238px){
+    .wide{
+        width: 100% !important;
+    }
+}
+@media (max-width:1082px){
+    .nav{
+        padding: 0 20px;
+    }
+    .nav-items.c-8{
+        display: none !important;
+    }
+    .header_menu i{
+        display: block;
+    }
+}
+@media (max-width:952px){
+    .c-2{
+        display: block;
+        width: 100%;
+        flex: auto;
+        max-width: 180px;
+    }
+}
