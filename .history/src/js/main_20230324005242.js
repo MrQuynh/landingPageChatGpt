@@ -451,7 +451,7 @@ $(document).ready(function () {
     listTest.unshift({
       textUser: input.val(),
       textGPT:
-        "Chúc bạn một ngày tốt lành.Xin lỗi tôi chỉ là bản demo, nên không thể giúp bạn trò chuyện bây giờ! Hãy đăng kí ngay để giao lưu và có những trải nghiệm thú vị với tôi nào.",
+        "Xin lỗi tôi chỉ là bản demo! Hãy đăng kí ngay để có những trải nghiệm thú vị nào.",
     });
     const htmls = listTest.map((item, index) => {
       return `
