@@ -2,7 +2,7 @@
 const scrollbar = document.getElementById("root");
 const header = document.getElementById("header");
 const demoBuyBtn = document.getElementById("demo-btn-buy");
-const headerMenu = document.querySelector(".header_m");
+const headerMenu = document.querySelector(".header_menu");
 let scroll = 0;
 
 function scrolled(e) {
@@ -10,18 +10,9 @@ function scrolled(e) {
   const currentScroll = window.pageYOffset;
   if (currentScroll < scroll) {
     header.classList.add("header-show");
-    headerMenu.classList.remove("header_m-active");
-    document.querySelector(".header_menu-main").classList.add("menu-active");
-    document
-      .querySelector(".header_menu-close")
-      .classList.remove("menu-active");
   } else {
     header.classList.remove("header-show");
     headerMenu.classList.remove("header_m-active");
-    document.querySelector(".header_menu-main").classList.add("menu-active");
-    document
-      .querySelector(".header_menu-close")
-      .classList.remove("menu-active");
   }
   scroll = currentScroll;
 }
@@ -460,7 +451,7 @@ $(document).ready(function () {
     listTest.unshift({
       textUser: input.val(),
       textGPT:
-        "Xin lỗi tôi chỉ là bản demo! Hãy đăng kí ngay để có những trải nghiệm thú vị nào.",
+        "Chúc bạn một ngày tốt lành.Xin lỗi tôi chỉ là bản demo, nên không thể giúp bạn trò chuyện bây giờ! Hãy đăng kí ngay để giao lưu và có những trải nghiệm thú vị với tôi nào.",
     });
     const htmls = listTest.map((item, index) => {
       return `
@@ -496,7 +487,7 @@ $(document).ready(function () {
       listTest.unshift({
         textUser: input.val(),
         textGPT:
-          "Chúc bạn một ngày tốt lành.Xin lỗi tôi chỉ là bản demo, nên không thể giúp bạn trò chuyện bây giờ! Hãy đăng kí ngay để giao lưu và có những trải nghiệm thú vị với tôi nào.",
+          "Xin lỗi tôi chỉ là bản demo! Hãy đăng kí ngay để có những trải nghiệm thú vị nào.",
       });
       const htmls = listTest.map((item, index) => {
         return `

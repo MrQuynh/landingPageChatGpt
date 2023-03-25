@@ -10,7 +10,7 @@ function scrolled(e) {
   const currentScroll = window.pageYOffset;
   if (currentScroll < scroll) {
     header.classList.add("header-show");
-    headerMenu.classList.remove("header_m-active");
+    header.classList.remove("header-show");
     document.querySelector(".header_menu-main").classList.add("menu-active");
     document
       .querySelector(".header_menu-close")

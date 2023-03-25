@@ -441,7 +441,7 @@
         height: 240px;
     }
 }
-@media (max-width:450px){
+@media (max-width:400px){
     .banner_slogen-m{
         width: 100% !important;
     }
@@ -595,14 +595,5 @@
     .footer_btn{
         width: 100%;
         border-radius: 0;
-    }
-    .footer-contact{
-        margin-right: 10px;
-    }
-    .modal_body{
-        border-radius: 0;
-    }
-    .demo_image-title{
-        font-size: 1.4rem;
     }
 }

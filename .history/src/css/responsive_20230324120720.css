@@ -22,14 +22,8 @@
         /* transition: all 1s ease-in; */
        
     }
-    .banner_1-text{
-        padding: 0 10px;
-    }
     .header_menu-close i{
         animation: roteMenu .5s ease;
-    }
-    .banner_img{
-        padding: 0 10px 0 0s;
     }
     @keyframes roteMenu {
         from{
@@ -441,7 +435,7 @@
         height: 240px;
     }
 }
-@media (max-width:450px){
+@media (max-width:400px){
     .banner_slogen-m{
         width: 100% !important;
     }
@@ -575,34 +569,5 @@
     }
     .price_body{
         border-radius: 0;
-    }
-    .question_body{
-        padding: 20px 10px;
-    }
-    .question_item-question{
-        margin-top: 20px;
-    }
-    .question_item-question p{
-        font-size: 2rem;
-        margin: 0 0 0 0 ;
-    }
-    .question_item-question p i{
-        font-size: 2.2rem;
-    }
-    .question_item-answer{
-        padding: 0 20px;
-    }
-    .footer_btn{
-        width: 100%;
-        border-radius: 0;
-    }
-    .footer-contact{
-        margin-right: 10px;
-    }
-    .modal_body{
-        border-radius: 0;
-    }
-    .demo_image-title{
-        font-size: 1.4rem;
     }
 }

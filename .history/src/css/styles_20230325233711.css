@@ -25,6 +25,7 @@
     right: 0;
     left: 0;
     z-index: 999;
+    /* border-bottom: 1px solid rgba(255,255,255,0.2); */
     background-color: var(--bg-gradient-1);
     box-shadow: 0 3px 10px rgba(91, 97, 150, 0.2);
     transition: all 0.1s ease;
@@ -44,6 +45,7 @@
     left: 0;
     right: 0;
     bottom:-178px;
+    /* padding-top: 60px; */
     background-color: var(--bg-gradient-1);
     box-shadow: 0 3px 6px rgba(91, 97, 150, 0.2);
     transition: all 0.3s ease;
@@ -79,6 +81,7 @@
 }
 .header_m-item{
     width: 100%;
+    /* margin: 10px 0px; */
     text-align: center;
     padding: 10px 0;
     transition: all .5s ease;
@@ -86,6 +89,7 @@
 }
 .header_m-item:hover{
     background-color: rgb(62, 81, 109);
+    /* transition: all .5s ease; */
 }
 
 .header_m-item a{

@@ -53,8 +53,7 @@
     justify-content: center;
 }
 .banner_img-robot img{
-    max-width: 1200px;
-    width:100%;
+    max-width: 1200px
 }
 .banner-btn{
     position: relative;
@@ -282,7 +281,6 @@
 }
 .test_btn{
     width: 20px;
-    cursor: pointer;
 }
 .test-btn-img{
     width: 20px;
